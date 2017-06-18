@@ -30,6 +30,10 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
+                    console.error(message); //gives you the red errormessage
+                    console.log(message); //gives the default message
+                    console.warn(message); //gives the warn message with the exclamation mark in front of it
+                    console.info(message); //gives an info message with an 'i' in front of the message
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
