@@ -2,7 +2,7 @@
 
 $(function() {
 
-    $("#form input,#contactForm textarea").jqBootstrapValidation({
+    $("#form input,#form textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -50,7 +50,7 @@ $(function() {
                     $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#form').trigger("reset");
                 },
             });
         },
