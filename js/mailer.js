@@ -5,7 +5,7 @@ $(function($){
 		event.preventDefault();
 
 		$.ajax({
-	    url: "https://formspree.io/volankang@hotmail.com", 
+	    url: "https://formspree.io/vnnanpalle@hotmail.com", 
 	    method: "POST",
 	    data: {
 	    	name: $("#name").val(),
