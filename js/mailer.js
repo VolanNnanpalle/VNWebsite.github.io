@@ -19,7 +19,7 @@ $(function($){
 			$("#email").val("");
 			$("#phone").val("");
 			$("#message").val("");
-			// document.getElementById("success").innerHTML="Message Sent"
+			document.getElementById("success").innerHTML="Message Sent"
 			// alert("Message Sent!");
 		}).fail(function(){
 			alert("ERROR WHILE SENDING MESSAGE!");
