@@ -20,7 +20,6 @@ $(function($){
 			$("#phone").val("");
 			$("#message").val("");
 			document.getElementById("success").innerHTML="Message Sent"
-			// alert("Message Sent!");
 		}).fail(function(){
 			alert("ERROR WHILE SENDING MESSAGE!");
 		});
