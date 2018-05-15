@@ -1,4 +1,4 @@
-# Modified by Volan Nnanpalle 2018
+# Modified by Volan Nnanpalle
 
 ## [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
